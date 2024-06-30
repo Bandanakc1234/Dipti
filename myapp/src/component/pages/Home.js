@@ -4,6 +4,14 @@ import home from './../../assets/images/home.png'
 import Footer from '../../layout/Footer'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import hinart from './../../assets/images/hinart.jpg'
+import hinart2 from './../../assets/images/hinart2.jpg'
+import hinart3 from './../../assets/images/hinart3.jpg'
+import hinart4 from './../../assets/images/hinart4.jpg'
+import hinart6 from './../../assets/images/hinart6.jpeg'
+import hinart7 from './../../assets/images/hinart7.jpg'
+import hinart8 from './../../assets/images/hinart8.jpeg'
+
 
 
 const Home = () => {
@@ -164,8 +172,27 @@ const Home = () => {
                     <h1 className="text-3xl font-bold">GALLERY</h1>
                     <p className=" p-5">VIEW OUR HINA WORK</p>
                 </div>
+
                 <div>
-                    hina photos section
+                    <div className="flex gap-3 justify-center py-3 px-5 capitalize">
+                        <div className='flex flex-col gap-3'>
+                            <img src={hinart} alt="" className="w-64 h-64 border-2 border-black" />
+                            <img src={hinart2} alt="" className="w-64 h-96 border-2 border-black rounded-md" />
+
+                        </div>
+                        <div className='flex flex-col gap-3'>
+                            <img src={hinart3} alt="" className="w-64 h-96 border-2 border-black rounded-md" />
+                            <img src={hinart4} alt="" className="w-64 h-64 border-2 border-black" />
+                        </div>
+                        <div className='flex flex-col gap-3'>
+                            <img src={hinart6} alt="" className="w-64 h-64 border-2 border-black" />
+                            <img src={hinart7} alt="" className="w-64 h-96 border-2 border-black rounded-md" />
+                        </div>
+                        <div className='flex flex-col gap-3'>
+                            <img src={hinart8} alt="" className="w-64 h-96 border-2 border-black rounded-md" />
+                            <img src={hinart2} alt="" className="w-64 h-64 border-2 border-black" />
+                        </div>
+                    </div>
                 </div>
 
                 <button className="bg-black h-9 text-lg rounded-md cursor-pointer m-4 text-white"><a href="/gallary" className="md:p-3 p-2">VIEW MORE</a></button>
@@ -210,21 +237,21 @@ const Home = () => {
 
             {/* eighth section */}
             <div className="flex justify-around border border-t-4 border-b-4 text-center md:p-12 bg-white h-96">
-            <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative" >
-          <iframe width="100%" height="100%" className="absolute inset-0" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.662849528088!2d85.31829767514621!3d27.665901027318835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19000a4f32cf%3A0x53f71813950137ff!2sEvolve%20IT%20Hub%20Nepal!5e0!3m2!1sen!2snp!4v1707120552707!5m2!1sen!2snp"></iframe>
-          <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md invisible md:visible ">
-            <div className="lg:w-1/2 px-6" >
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">ADDRESS</h2>
-              <p className="mt-1">Puranobaneshor, Kathmandu</p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-              <a className="text-indigo-500 leading-relaxed">diptithreading@gmail.com</a>
-              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-              <p className="leading-relaxed">977-98601132</p>
-            </div>
-          </div>
-        </div>
+                <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative" >
+                    <iframe width="100%" height="100%" className="absolute inset-0" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.662849528088!2d85.31829767514621!3d27.665901027318835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19000a4f32cf%3A0x53f71813950137ff!2sEvolve%20IT%20Hub%20Nepal!5e0!3m2!1sen!2snp!4v1707120552707!5m2!1sen!2snp"></iframe>
+                    <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md invisible md:visible ">
+                        <div className="lg:w-1/2 px-6" >
+                            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">ADDRESS</h2>
+                            <p className="mt-1">Puranobaneshor, Kathmandu</p>
+                        </div>
+                        <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                            <a className="text-indigo-500 leading-relaxed">diptithreading@gmail.com</a>
+                            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                            <p className="leading-relaxed">977-98601132</p>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <h1>OPERATING HOURS</h1>
                 </div>
